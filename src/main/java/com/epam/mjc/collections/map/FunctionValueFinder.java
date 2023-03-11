@@ -23,8 +23,4 @@ public class FunctionValueFinder {
         sourceList.forEach(v -> calculatedMap.put(v, 5*v+2));
         return calculatedMap;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new FunctionValueFinder().isFunctionValuePresent(List.of(2, -6, 10, 19, 55, 11), 52));
-    }
 }
